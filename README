@@ -1,0 +1,8 @@
+RUN server-side : cd into server
+            npm run server
+
+RUN client-side : open new terminal
+            cd ..
+            cd into clent
+            npm run dev
+

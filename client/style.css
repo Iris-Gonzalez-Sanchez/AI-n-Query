@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css?family=Futura");
-
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Futura, sans-serif;
+  font-family: 'Noto Serif', serif;
 }
 
 body {
@@ -16,9 +15,6 @@ body {
   width: 100vw;
   height: 100vh;
   background: transparent;
-  border-style: dashed, groove;
-  border-color: url(https://media.giphy.com/media/UtyyP6wXT7WkUunlhZ/giphy.gif);
-
 
   display: flex;
   flex-direction: column;
@@ -36,7 +32,6 @@ body {
   flex-direction: column;
   gap: 10px;
 
-  -ms-overflow-style: none;
   scrollbar-width: none;
 
   padding-bottom: 20px;
@@ -107,7 +102,6 @@ body {
   */
   white-space: pre-wrap; 
 
-  -ms-overflow-style: none;
   scrollbar-width: none;
 }
 

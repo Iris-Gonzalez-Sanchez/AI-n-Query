@@ -45,7 +45,7 @@ function chatStripe(isAi, value, uniqueId) {
       <div class="chat"> 
         <div class="profile">
           <img
-            src="${isAi ? bot : user}"
+            src= ${isAi ? bot : user}
             alt="${isAi ? "bot" : "user"}"
           />
         </div>
@@ -88,7 +88,7 @@ const handleSubmit = async (e) => {
   });
 
   clearInterval(loadInterval);
-  messageDiv.innerHTML = "";
+  messageDiv.innerHTML = " ";
 
   if (response.ok) {
     const data = await response.json();

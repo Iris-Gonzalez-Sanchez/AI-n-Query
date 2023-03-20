@@ -3,6 +3,6 @@ RUN server-side : cd into server
 
 RUN client-side : open new terminal
             cd ..
-            cd into clent
+            cd into client
             npm run dev
 
